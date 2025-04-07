@@ -72,7 +72,6 @@
                             | undefined.
 
 %% github.com/erlang/otp/blob/OTP-20.2.3/lib/inets/doc/src/http_uri.xml#L57
--type http_uri_uri() :: string() | unicode:unicode_binary().
 
 -type json_term() :: term().
 
@@ -80,7 +79,7 @@
 
 -type schema() :: json_term().
 
--type schema_id() :: http_uri_uri() | undefined.
+-type schema_id() :: binary() | undefined.
 
 -type schema_ref() :: binary().
 
